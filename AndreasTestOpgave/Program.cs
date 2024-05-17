@@ -23,6 +23,8 @@ namespace MyApp
                 new Person(){Name = "Harald Blåtand", Age = 1089, Address = "Jelling", Job = "Konge af Danmark", Birthday = new DateTime(932,04,02) }
             };
 
+
+
             persons.Add(CreateNewPerson());
 
 
