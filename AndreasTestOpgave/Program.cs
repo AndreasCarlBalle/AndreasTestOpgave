@@ -19,7 +19,8 @@ namespace MyApp
             List<Person> persons = new List<Person>
             {
                 new Person(){Name = "Mathias", Age = 18, Address = "Nederen", Job = "Nederen", Birthday = new DateTime(2003,03,03) },
-
+                new Person(){Name = "Andreas", Age = 20, Address = "Frederiksberg", Job = "TEC", Birthday = new DateTime(2004,03,03) },
+                new Person(){Name = "Harald Blåtand", Age = 1089, Address = "Jelling", Job = "Konge af Danmark", Birthday = new DateTime(932,04,02) }
             };
 
             persons.Add(CreateNewPerson());
